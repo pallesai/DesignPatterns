@@ -7,7 +7,7 @@ public class Singleton {
 	
 	public static Singleton getSingleton() {
 		if(null == singleTon) {
-		 singleTon	= new Singleton();
+		 singleTon = new Singleton();
 		}
 		return singleTon;
 	}
